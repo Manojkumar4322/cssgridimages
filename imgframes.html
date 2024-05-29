@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(100, 30px);
+        gap: 0px;
+      }
+      
+      div > img {
+        width: 100%;
+        height: 100%;
+      }
+      .a {
+        grid-row:1/35;
+      }
+
+      .b {
+        grid-row:1/10 ;
+        grid-column:2/3 ;
+       
+      }
+      .c {
+        grid-row:1/6;
+      }
+      .d {
+        grid-row:10/16;
+       
+       
+      }
+      .e{
+       
+        grid-row: 6/15;
+
+      }
+      .g{
+         grid-row: 16/29;
+      }
+      .f{
+        grid-row: 15/35;
+      }
+      .h{
+        grid-row: 35/45;
+      }
+      .i{
+        grid-row:29/44 ;
+      }
+      .j{
+        grid-row:35/55;
+      }
+      .k{
+        grid-row:45/50;
+      }
+      .l{
+        grid-row: 44/79;
+      }
+      .m{
+        grid-row: 50/71;
+      }
+      .n{
+        grid-row: 55/69;
+      }
+      .o{
+        grid-row: 71/83;
+      }
+      .p{
+        grid-row:79/90
+      }
+      .q{
+        grid-row: 83/89;
+      }
+      .r{
+        grid-row: 69/89;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="text-align: center;"> <h4>images</h4></div>
+    <div class="parent">
+      <div class="a"><img src="./images/rocks.jpg" /></div>
+      <div class="b"><img src="./images/coffee.jpg" ></div>
+      <div class="c"><img src="./images/mist.jpg" /></div>
+      <div class="d"><img src="./images/bridge.jpg" /></div>
+      <div class="e"><img src="./images/workbench.jpg"></div>
+      <div class="f"><img src="./images/gondol.jpg" ></div>
+      <div class="g"><img src="./images/notebook.jpg"  ></div>
+      <div class="h"><img src="./images/sound.jpg"></div>
+      <div class="i"><img src="./images/london.jpg"></div>
+      <div class="j"><img src="./images/skies.jpg"></div>
+      <div class="k"><img src="./images/woods.jpg"></div>
+      <div class="l"><img src="images/rocks.jpg"></div>
+      <div class="m"><img src="./images/rock.jpg"></div>
+      <div class="n"><img src="images/lights.jpg"></div>
+      <div class="o"><img src="./images/nature.jpg"></div>
+      <div class="p"><img src="images/avatar_g.jpg"></div>
+      <div class="q"><img src="images/mist.jpg" /></div>
+      <div class="r"><img src="./images/workshop.jpg" /></div>
+
+    </div>
+  </body>
+</html>
